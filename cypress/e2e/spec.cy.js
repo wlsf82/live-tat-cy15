@@ -30,7 +30,7 @@ describe('EngageSphere', () => {
     cy.get('table').should('be.visible')
   })
 
-  it('successfully sends a message', function() {
+  it('successfully sends a message', () => {
     // Arrange
     cy.get('[aria-label="Open messenger"]').click()
     // Act
